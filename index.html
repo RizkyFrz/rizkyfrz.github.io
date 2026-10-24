@@ -1,312 +1,403 @@
 <!DOCTYPE html>
-<html lang="id" class="scroll-smooth">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Pribadi - Muhammad Rizky Fadillah</title>
-    
-    <!-- Tailwind CSS for styling -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Feather Icons for icons -->
-    <script src="https://unpkg.com/feather-icons"></script>
-
-    <style>
-        /* Custom CSS */
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f0f4f8; /* Light gray background */
-        }
-        
-        /* Smooth scrolling behavior */
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /* Animation for elements fading in on scroll */
-        .fade-in-section {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-        }
-
-        .fade-in-section.is-visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Styling for active navigation link */
-        .nav-link-active {
-            color: #3b82f6; /* Blue-500 */
-            font-weight: 600;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Rizky Fadillah – IT Enthusiast, Networking &amp; Cyber Security</title>
+<meta name="description" content="Portofolio Muhammad Rizky Fadillah, lulusan SMK Wikrama Bogor jurusan TKJ dengan fokus pada networking dan cyber security.">
+<meta name="theme-color" content="#0E1012">
+<link rel="canonical" href="https://rizkyfrz.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Muhammad Rizky Fadillah – Portofolio">
+<meta property="og:description" content="IT Enthusiast di bidang Networking &amp; Cyber Security.">
+<meta property="og:url" content="https://rizkyfrz.github.io/">
+<meta property="og:image" content="https://rizkyfrz.github.io/Image/foto%202.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>var d=document.documentElement;d.classList.add('js');try{var nv=performance.getEntriesByType('navigation')[0];if(!sessionStorage.getItem('rfIntro')&&!location.hash&&!(nv&&nv.type==='back_forward'))d.classList.add('pre')}catch(e){}setTimeout(function(){if(!d.dataset.ok)d.classList.add('fallback')},2500)</script>
+<script src="script.js" defer></script>
 </head>
-<body class="text-gray-800">
+<body>
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="pre-inner">
+    <svg class="pre-svg" viewBox="0 0 520 150">
+      <g class="pre-wires" fill="none">
+        <path class="pre-wire" pathLength="1" style="--d:.09s" d="M74 50 H131"/>
+        <path class="pre-wire" pathLength="1" style="--d:.17s" d="M170 60 V94"/>
+        <path class="pre-wire" pathLength="1" style="--d:.2s" d="M209 50 H265"/>
+        <path class="pre-wire" pathLength="1" style="--d:.27s" d="M335 50 H386"/>
+      </g>
+      <g class="pd" style="--d:0s" transform="translate(50,50) scale(.7)">
+        <rect class="b" x="-32" y="-28" width="64" height="42" rx="3"/><rect class="s" x="-27" y="-23" width="54" height="32" rx="1.5"/>
+        <path class="d" d="M-12 -8 L10 -14 M-12 -8 L10 2 M0 14 V24 M-12 24 H12"/>
+        <circle class="n" cx="-12" cy="-8" r="2.6"/><circle class="n" cx="10" cy="-14" r="2.2"/><circle class="n" cx="10" cy="2" r="2.2"/>
+        <rect class="b" x="-22" y="30" width="44" height="6" rx="1.5"/>
+      </g>
+      <g class="pd" style="--d:.09s" transform="translate(170,50) scale(.7)">
+        <rect class="b" x="-55" y="-14" width="110" height="28" rx="3"/>
+        <rect class="gl" x="-55" y="-14" width="110" height="28" rx="3" opacity="0"><animate attributeName="opacity" values="0;.4;0" dur=".5s" begin="indefinite" data-at=".4"/></rect>
+        <path class="d" d="M-47 2h8v7h-8z M-35 2h8v7h-8z M-23 2h8v7h-8z M-11 2h8v7h-8z M1 2h8v7h-8z M13 2h8v7h-8z M25 2h8v7h-8z M37 2h8v7h-8z"/>
+        <circle class="led" cx="-43" cy="-6" r="1.6"/><circle class="led" cx="-19" cy="-6" r="1.6"/><circle class="led" cx="5" cy="-6" r="1.6"/><circle class="led" cx="29" cy="-6" r="1.6"/>
+      </g>
+      <g class="pd" style="--d:.17s" transform="translate(170,118) scale(.7)">
+        <rect class="b" x="-40" y="-34" width="80" height="68" rx="3"/>
+        <rect class="b" x="-34" y="-28" width="68" height="16" rx="1.5"/><rect class="b" x="-34" y="-8" width="68" height="16" rx="1.5"/><rect class="b" x="-34" y="12" width="68" height="16" rx="1.5"/>
+        <path class="d" d="M-14 -20 H28 M-14 0 H28 M-14 20 H28"/>
+        <circle class="led" cx="-26" cy="-20" r="1.8"/><circle class="led" cx="-26" cy="0" r="1.8"/><circle class="led" cx="-26" cy="20" r="1.8"/>
+      </g>
+      <g class="pd" style="--d:.2s" transform="translate(300,50) scale(.7)">
+        <path class="d" d="M-34 -14 V-30 M34 -14 V-30 M0 -14 V-32"/>
+        <rect class="b" x="-50" y="-14" width="100" height="28" rx="3"/>
+        <rect class="gl" x="-50" y="-14" width="100" height="28" rx="3" opacity="0"><animate attributeName="opacity" values="0;.4;0" dur=".5s" begin="indefinite" data-at=".75"/></rect>
+        <path class="d" d="M14 -5h8v10h-8z M26 -5h8v10h-8z M38 -5h8v10h-8z"/>
+        <circle class="led" cx="-38" cy="0" r="1.8"/><circle class="led" cx="-28" cy="0" r="1.8"/>
+        <g class="wifi"><circle cx="0" cy="-34" r="2.4"/><path d="M-8.5 -42.5 A12 12 0 0 1 8.5 -42.5"/><path d="M-14.1 -48.1 A20 20 0 0 1 14.1 -48.1"/><path d="M-19.8 -53.8 A28 28 0 0 1 19.8 -53.8"/></g>
+      </g>
+      <g class="pd" style="--d:.27s" transform="translate(440,52) scale(.7)">
+        <path class="b" d="M-53 36 H52 C77 36 84 0 62 -8 C66 -36 28 -48 12 -28 C-2 -52 -42 -48 -44 -18 C-72 -20 -80 36 -53 36 Z"/>
+        <path class="gl" d="M-53 36 H52 C77 36 84 0 62 -8 C66 -36 28 -48 12 -28 C-2 -52 -42 -48 -44 -18 C-72 -20 -80 36 -53 36 Z" opacity="0"><animate attributeName="opacity" values="0;.4;0" dur=".5s" begin="indefinite" data-at=".95"/></path>
+        <circle class="d" cx="2" cy="6" r="14"/><ellipse class="d" cx="2" cy="6" rx="6" ry="14"/><path class="d" d="M-12 6 H16"/>
+      </g>
+      <g class="pre-packets">
+        <g class="pre-packet" opacity="0"><circle class="halo" r="6"/><circle r="3"/>
+          <animateMotion path="M74 50 H386" dur=".75s" begin="indefinite" data-at=".45" fill="freeze" calcMode="linear"/>
+          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.85;1" dur=".75s" begin="indefinite" data-at=".45" fill="freeze"/></g>
+        <g class="pre-packet" opacity="0"><circle class="halo" r="6"/><circle r="3"/>
+          <animateMotion path="M170 94 V50 H386" dur=".7s" begin="indefinite" data-at=".45" fill="freeze" calcMode="linear"/>
+          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.85;1" dur=".7s" begin="indefinite" data-at=".45" fill="freeze"/></g>
+      </g>
+    </svg>
+    <p class="pre-name"><span class="m"><span>Rizky</span></span> <span class="m"><span><em>Fadillah</em></span></span></p>
+    <p class="pre-sub">IT Enthusiast</p>
+  </div>
+</div>
+<a class="skip" href="#konten">Lewati ke konten</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
 
-    <!-- === HEADER / NAVIGATION === -->
-    <header id="header" class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-blue-600">Portofolio</a>
-            <ul class="hidden md:flex space-x-8 items-center">
-                <li><a href="#beranda" class="nav-link hover:text-blue-600 transition-colors duration-300">Beranda</a></li>
-                <li><a href="#tentang" class="nav-link hover:text-blue-600 transition-colors duration-300">Tentang</a></li>
-                <li><a href="#sertifikat" class="nav-link hover:text-blue-600 transition-colors duration-300">Sertifikat</a></li>
-                <li><a href="#kontak" class="nav-link hover:text-blue-600 transition-colors duration-300">Kontak</a></li>
-            </ul>
-             <button id="mobile-menu-button" class="md:hidden">
-                <i data-feather="menu"></i>
-            </button>
-        </nav>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
-            <a href="#beranda" class="block py-2 text-center nav-link hover:bg-blue-50 rounded-md">Beranda</a>
-            <a href="#tentang" class="block py-2 text-center nav-link hover:bg-blue-50 rounded-md">Tentang</a>
-            <a href="#sertifikat" class="block py-2 text-center nav-link hover:bg-blue-50 rounded-md">Sertifikat</a>
-            <a href="#kontak" class="block py-2 text-center nav-link hover:bg-blue-50 rounded-md">Kontak</a>
-        </div>
-    </header>
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Navigasi utama">
+    <a class="brand" href="#beranda">Rizky Fadillah</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList" aria-label="Buka menu"><span></span><span></span></button>
+    <ul class="nav-list" id="navList">
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#keahlian">Keahlian</a></li>
+      <li><a href="#sertifikat">Sertifikat</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <main>
-        <!-- === BERANDA (HOME) SECTION === -->
-        <section id="beranda" class="container mx-auto px-6 py-20 md:py-32 flex flex-col-reverse md:flex-row items-center justify-center text-center md:text-left">
-            <div class="md:w-1/2">
-                <h1 class="text-4xl md:text-6xl font-bold leading-tight">
-                    Halo, Saya <span class="text-blue-600">Muhammad Rizky Fadillah</span>
-                </h1>
-                <p id="role-text" class="text-xl md:text-2xl mt-4 text-gray-600 font-medium">Saya seorang IT Enthusiast</p>
-                <p class="mt-4 max-w-lg mx-auto md:mx-0">
-                   Saya mempunyai ketertarikan yang besar terhadap teknologi, khususnya jaringan komputer, dan terus berusaha untuk memperdalam pengetahuan dan keterampilan saya di bidang tersebut.
-                </p>
-                <div class="mt-8 flex justify-center md:justify-start space-x-4">
-                    <a href="#kontak" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105">Hubungi Saya</a>
-                    <a href="#sertifikat" class="bg-white text-gray-700 font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition-transform transform hover:scale-105">Lihat Sertifikat</a>
-                </div>
-            </div>
-            <div class="md:w-1/2 mb-10 md:mb-0 flex justify-center">
-                 <img src="Image/foto 2.jpg" alt="Foto Profil" class="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover shadow-2xl">
-            </div>
-        </section>
+<main id="konten">
+<section class="hero" id="beranda">
+  <div class="hero-fx" aria-hidden="true">
+    <div class="hero-grid"></div>
+    <div class="hero-dots"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow g2"></div>
+  </div>
 
-        <!-- === TENTANG (ABOUT) SECTION === -->
-        <section id="tentang" class="bg-white py-20 md:py-24 fade-in-section">
-            <div class="container mx-auto px-6">
-                <h2 class="text-3xl font-bold text-center mb-4">Tentang Saya</h2>
-                <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-                    Berikut adalah ringkasan tentang latar belakang, keahlian, dan apa yang saya sukai.
-                </p>
-                <div class="flex flex-col md:flex-row items-center gap-12">
-                    <div class="md:w-1/2 text-gray-700 space-y-4">
-                        <p>
-                    Saya lulusan SMK Wikrama Bogor jurusan Teknik Komputer dan Jaringan (TKJ) dengan
-                    ketertarikan besar pada bidang networking dan keamanan jaringan. Memiliki pengalaman
-                    magang di perusahaan IT lokal, terbiasa menangani troubleshooting, instalasi jaringan, dan
-                    konfigurasi server. Saya antusias untuk terus belajar, berkembang di dunia IT, dan siap
-                    memberikan kontribusi terbaik melalui keahlian yang saya miliki.       </p>
-                        <p>
-                            Di luar kebiasaan saya, saya suka membaca buku tentang teknologi, mencoba berbagai tools jaringan komputer, dan menikmati secangkir kopi di pagi hari. Saya juga senang mencari ilmu di dunia internet melalui pelatihan dan sertifikat online. Saya percaya bahwa keseimbangan antara pekerjaan dan kehidupan pribadi adalah kunci untuk kreativitas dan produktivitas yang berkelanjutan.
-                        </p>
-                    </div>
-                    <div class="md:w-1/2">
-                        <h3 class="text-xl font-semibold mb-4">Keahlian Utama</h3>
-                        <div class="flex flex-wrap gap-3">
-                            <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Linux</span>
-                            <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Cloud Computing</span>
-                            <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Virtual Machine</span>
-                            <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium">Mikrotik</span>
-                            <span class="bg-cyan-100 text-cyan-800 px-4 py-2 rounded-full font-medium">Nirkabel</span>
-                            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Cyber Security</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <p class="hero-role hx" style="--t:.15s">IT Enthusiast · Networking &amp; Cyber Security</p>
+      <h1><span class="ln" style="--t:.3s"><span>Muhammad</span></span> <span class="ln" style="--t:.4s"><span>Rizky</span></span> <span class="ln ln-last" style="--t:.52s"><span><em>Fadillah</em></span></span></h1>
+      <p class="hero-desc hx" style="--t:.65s">Saya tertarik pada teknologi, khususnya jaringan komputer, dan terus memperdalam pengetahuan serta keterampilan di bidang tersebut.</p>
+      <div class="hero-cta hx" style="--t:.8s">
+        <a class="btn btn-solid" href="#kontak">Hubungi saya <span class="arrow" aria-hidden="true">→</span></a>
+        <a class="btn btn-line" href="#sertifikat">Lihat sertifikat <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="frame" aria-hidden="true"></div>
+      <figure class="portrait">
+        <img src="Image/foto%202.jpg" alt="Foto Muhammad Rizky Fadillah" width="420" height="520" fetchpriority="high">
+      </figure>
+    </div>
+  </div>
 
-        <!-- === SERTIFIKAT (CERTIFICATES) SECTION === -->
-        <section id="sertifikat" class="py-20 md:py-24 fade-in-section">
-            <div class="container mx-auto px-6">
-                <h2 class="text-3xl font-bold text-center mb-4">Sertifikat & Pelatihan</h2>
-                <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-                    Berikut adalah beberapa sertifikat yang telah saya peroleh. Klik pada gambar untuk melihat lebih detail.
-                </p>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Certificate Card 1 -->
-                    <a href="PDF/MTCNA.pdf" target="_blank" aria-label="Lihat Sertifikat Satu" class="block rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                        <img src="Image/MTCNA_page-0001.jpg" alt="Gambar Sertifikat 1" class="w-full h-full object-cover">
-                    </a>
-                    <!-- Certificate Card 2 -->
-                    <a href="PDF/Junior Cybersecurity.pdf" target="_blank" aria-label="Lihat Sertifikat Dua" class="block rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                        <img src="Image/Junior Cybersecurity_page-0001.jpg" alt="Gambar Sertifikat 2" class="w-full h-full object-cover">
-                    </a>
-                    <!-- Certificate Card 3 -->
-                    <a href="PDF/Linux Fundamental.pdf" target="_blank" aria-label="Lihat Sertifikat Tiga" class="block rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                        <img src="Image/Linux Fundamental_page-0001.jpg" alt="Gambar Sertifikat 3" class="w-full h-full object-cover">
-                    </a>
-                    <!-- Certificate Card 4 -->
-                    <a href="PDF/NetworkTechnicianCareer.pdf" target="_blank" aria-label="Lihat Sertifikat Empat" class="block rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                        <img src="Image/NetworkTechnicianCareer_page-0001.jpg" alt="Gambar Sertifikat 4" class="w-full h-full object-cover">
-                    </a>
-                    <!-- Certificate Card 5 -->
-                    <a href="PDF/Sertifikat E-Learning K3 Muhammad Rizky Fadillah.pdf" target="_blank" aria-label="Lihat Sertifikat Lima" class="block rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                        <img src="Image/Sertifikat E-Learning K3 Muhammad Rizky Fadillah_page-0001.jpg" alt="Gambar Sertifikat 5" class="w-full h-full object-cover">
-                    </a>
-                    <!-- Certificate Card 6 -->
-                    <a href="PDF/Virtual Machine.pdf" target="_blank" aria-label="Lihat Sertifikat Enam" class="block rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                        <img src="Image/Virtual Machine_page-0001.jpg" alt="Gambar Sertifikat 6" class="w-full h-full object-cover">
-                    </a>
-                </div>
-            </div>
-        </section>
+  <div class="wrap">
+    <figure class="net">
+      <div class="net-bar"><span class="net-tag">Topologi jaringan</span><span>Ilustrasi · bukan data langsung</span></div>
 
-        <!-- === KONTAK (CONTACT) SECTION === -->
-        <section id="kontak" class="bg-white py-20 md:py-24 fade-in-section">
-            <div class="container mx-auto px-6">
-                 <h2 class="text-3xl font-bold text-center mb-4">Hubungi Saya</h2>
-                 <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-                    Saya terbuka untuk peluang baru. Jangan ragu untuk mengirim saya pesan.
-                </p>
-                <div class="max-w-2xl mx-auto bg-gray-50 p-8 rounded-lg shadow-md">
-                    <form action="https://api.web3forms.com/submit" method="POST">
-                        <!-- ACCESS KEY ANDA SUDAH DIISIKAN DI SINI -->
-                        <input type="hidden" name="access_key" value="bf78c528-8cf5-4125-993f-52bb9dce8d02">
+      <!-- ===== Diagram desktop ===== -->
+      <svg class="net-svg net-d" viewBox="0 0 1000 340" role="group" aria-label="Ilustrasi topologi jaringan: workstation dan laptop terhubung ke network switch, lalu ke router dan internet. Server terhubung ke switch.">
+        <g class="wires">
+          <path class="wire" pathLength="1" style="--d:.35s" data-rel="workstation switch" d="M135 72 H222 V162 H285"/>
+          <path class="wire" pathLength="1" style="--d:.4s" data-rel="laptop switch" d="M135 235 H222 V162 H285"/>
+          <path class="wire" pathLength="1" style="--d:.55s" data-rel="switch server" d="M340 176 V243"/>
+          <path class="wire" pathLength="1" style="--d:.6s" data-rel="switch router" d="M395 162 H550"/>
+          <path class="wire" pathLength="1" style="--d:.85s" data-rel="router internet" d="M650 162 H800"/>
+        </g>
+        <g class="flows">
+          <path class="flow" data-rel="workstation switch" d="M135 72 H222 V162 H285"/>
+          <path class="flow" data-rel="laptop switch" d="M135 235 H222 V162 H285"/>
+          <path class="flow" data-rel="switch server" d="M340 176 V243"/>
+          <path class="flow" data-rel="switch router" d="M395 162 H550"/>
+          <path class="flow" data-rel="router internet" d="M650 162 H800"/>
+        </g>
 
-                        <div class="mb-4">
-                            <label for="name" class="block text-gray-700 font-medium mb-2">Nama</label>
-                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Nama Lengkap Anda" required>
-                        </div>
-                        <div class="mb-4">
-                            <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
-                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="alamat@email.com" required>
-                        </div>
-                        <div class="mb-4">
-                            <label for="message" class="block text-gray-700 font-medium mb-2">Pesan</label>
-                            <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tulis pesan Anda di sini..." required></textarea>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="w-full bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105">
-                                Kirim Pesan
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
+        <g class="dev" data-dev="workstation" tabindex="0" role="img" aria-label="Workstation: komputer desktop dengan monitor" transform="translate(100,80)" style="--d:.15s">
+          <rect class="hit" x="-50" y="-36" width="100" height="100"/>
+          <rect class="body" x="-32" y="-28" width="64" height="42" rx="3"/>
+          <rect class="scr" x="-27" y="-23" width="54" height="32" rx="1.5"/>
+          <path class="det" d="M-12 -8 L10 -14 M-12 -8 L10 2"/>
+          <circle class="node" cx="-12" cy="-8" r="2.6"/><circle class="node" cx="10" cy="-14" r="2.2"/><circle class="node" cx="10" cy="2" r="2.2"/>
+          <circle class="led" cx="24" cy="11.5" r="1.2"/>
+          <path class="det" d="M0 14 V24 M-12 24 H12"/>
+          <rect class="part" x="-22" y="30" width="44" height="6" rx="1.5"/>
+          <text class="lbl" y="58">WORKSTATION</text>
+        </g>
 
-    <!-- === FOOTER === -->
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto px-6 text-center">
-            <div class="flex justify-center space-x-6 mb-4">
-                <a href="#" aria-label="GitHub" class="hover:text-blue-400 transition-colors"><i data-feather="github"></i></a>
-                <a href="https://www.linkedin.com/in/rizkyfadillah-/" aria-label="LinkedIn" class="hover:text-blue-400 transition-colors"><i data-feather="linkedin"></i></a>
-                <!-- Ganti NOMOR_WHATSAPP_ANDA dengan nomor Anda, diawali 62 (contoh: 628123456789) -->
-                <a href="https://wa.me/6281213131294" target="_blank" aria-label="WhatsApp" class="hover:text-blue-400 transition-colors"><i data-feather="phone"></i></a>
-            </div>
-            <p>&copy; 2025 Muhammad Rizky Fadillah. Dibuat dengan ❤️ dan semangat.</p>
-        </div>
-    </footer>
+        <g class="dev" data-dev="laptop" tabindex="0" role="img" aria-label="Laptop: perangkat klien" transform="translate(100,235)" style="--d:.2s">
+          <rect class="hit" x="-50" y="-30" width="100" height="82"/>
+          <rect class="body" x="-28" y="-22" width="56" height="36" rx="2.5"/>
+          <rect class="scr" x="-24" y="-18" width="48" height="28" rx="1"/>
+          <path class="det" d="M-14 5 L-7 -6 L0 0 L8 -10 L14 -4"/>
+          <path class="part" d="M-38 14 H38 L33 24 H-33 Z"/>
+          <text class="lbl" y="46">LAPTOP</text>
+        </g>
 
+        <g class="dev" data-dev="switch" tabindex="0" role="img" aria-label="Network switch: menghubungkan perangkat di jaringan lokal" transform="translate(340,162)" style="--d:.3s">
+          <rect class="hit" x="-65" y="-36" width="130" height="54"/>
+          <rect class="body" x="-55" y="-14" width="110" height="28" rx="3"/>
+          <rect class="glow" x="-55" y="-14" width="110" height="28" rx="3" opacity="0"><animate attributeName="opacity" values="0;0;.3;0;0;.3;0;0;.3;0;0" keyTimes="0;.1856;.2189;.2744;.3944;.4278;.4833;.5389;.5722;.6278;1" dur="9s" begin="1.4s" repeatCount="indefinite"/></rect>
+          <path class="det" d="M-47 2h8v7h-8z M-35 2h8v7h-8z M-23 2h8v7h-8z M-11 2h8v7h-8z M1 2h8v7h-8z M13 2h8v7h-8z M25 2h8v7h-8z M37 2h8v7h-8z"/>
+          <circle class="led blink" cx="-43" cy="-6" r="1.5" style="--l:0s"/><circle class="led blink" cx="-31" cy="-6" r="1.5" style="--l:.5s"/><circle class="led blink" cx="-19" cy="-6" r="1.5" style="--l:1.1s"/><circle class="led blink" cx="-7" cy="-6" r="1.5" style="--l:1.7s"/>
+          <circle class="led blink" cx="5" cy="-6" r="1.5" style="--l:.3s"/><circle class="led blink" cx="17" cy="-6" r="1.5" style="--l:.9s"/><circle class="led blink" cx="29" cy="-6" r="1.5" style="--l:1.4s"/><circle class="led blink" cx="41" cy="-6" r="1.5" style="--l:2s"/>
+          <text class="lbl" y="-24">NETWORK SWITCH</text>
+        </g>
 
-    <script>
-        // === ICON INITIALIZATION ===
-        // Inisialisasi Feather Icons
-        feather.replace();
+        <g class="dev" data-dev="server" tabindex="0" role="img" aria-label="Server: rak server yang terhubung ke switch" transform="translate(340,277)" style="--d:.4s">
+          <rect class="hit" x="-50" y="-40" width="100" height="96"/>
+          <rect class="body" x="-40" y="-34" width="80" height="68" rx="3"/>
+          <rect class="part" x="-34" y="-28" width="68" height="16" rx="1.5"/><rect class="part" x="-34" y="-8" width="68" height="16" rx="1.5"/><rect class="part" x="-34" y="12" width="68" height="16" rx="1.5"/>
+          <path class="det" d="M-14 -20 H28 M-14 0 H28 M-14 20 H28"/>
+          <circle class="led blink" cx="-26" cy="-20" r="1.6" style="--l:.2s"/><circle class="led blink" cx="-26" cy="0" r="1.6" style="--l:1.2s"/><circle class="led blink" cx="-26" cy="20" r="1.6" style="--l:2.2s"/>
+          <text class="lbl" y="52">SERVER</text>
+        </g>
 
-        // === MOBILE MENU TOGGLE ===
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
+        <g class="dev" data-dev="router" tabindex="0" role="img" aria-label="Router: menghubungkan jaringan lokal ke internet, dengan sinyal Wi-Fi" transform="translate(600,162)" style="--d:.45s">
+          <rect class="hit" x="-60" y="-66" width="120" height="106"/>
+          <path class="det" d="M-34 -14 V-30 M34 -14 V-30 M0 -14 V-32"/>
+          <rect class="body" x="-50" y="-14" width="100" height="28" rx="3"/>
+          <rect class="glow" x="-50" y="-14" width="100" height="28" rx="3" opacity="0"><animate attributeName="opacity" values="0;0;.3;0;0;.3;0;0;.3;0;0" keyTimes="0;.3778;.4111;.4667;.5878;.6211;.6767;.7311;.7644;.82;1" dur="9s" begin="1.4s" repeatCount="indefinite"/></rect>
+          <circle class="led blink" cx="-38" cy="0" r="1.6" style="--l:0s"/><circle class="led blink" cx="-28" cy="0" r="1.6" style="--l:.8s"/><circle class="led blink" cx="-18" cy="0" r="1.6" style="--l:1.6s"/><circle class="led" cx="-8" cy="0" r="1.6"/>
+          <path class="det" d="M14 -5h8v10h-8z M26 -5h8v10h-8z M38 -5h8v10h-8z"/>
+          <g class="wifi"><circle cx="0" cy="-34" r="2"/><path d="M-8.5 -42.5 A12 12 0 0 1 8.5 -42.5"/><path d="M-14.1 -48.1 A20 20 0 0 1 14.1 -48.1"/><path d="M-19.8 -53.8 A28 28 0 0 1 19.8 -53.8"/></g>
+          <text class="lbl" y="36">ROUTER</text>
+        </g>
 
-        // === FADE-IN ANIMATION ON SCROLL ===
-        // Fungsi untuk menambahkan animasi fade-in saat elemen masuk ke viewport
-        const sections = document.querySelectorAll('.fade-in-section');
-        const observerOptions = {
-            root: null, // relative to the viewport
-            rootMargin: '0px',
-            threshold: 0.1 // 10% of the item must be visible
-        };
+        <g class="dev" data-dev="internet" tabindex="0" role="img" aria-label="Internet gateway: jalur keluar menuju internet dan cloud" transform="translate(868,160)" style="--d:.6s">
+          <rect class="hit" x="-85" y="-55" width="170" height="120"/>
+          <path class="body" d="M-53 36 H52 C77 36 84 0 62 -8 C66 -36 28 -48 12 -28 C-2 -52 -42 -48 -44 -18 C-72 -20 -80 36 -53 36 Z"/>
+          <path class="glow" d="M-53 36 H52 C77 36 84 0 62 -8 C66 -36 28 -48 12 -28 C-2 -52 -42 -48 -44 -18 C-72 -20 -80 36 -53 36 Z" opacity="0"><animate attributeName="opacity" values="0;0;.3;0;0;.3;0;0;.3;0;0" keyTimes="0;.5256;.5589;.6144;.7356;.7689;.8244;.8789;.9122;.9678;1" dur="9s" begin="1.4s" repeatCount="indefinite"/></path>
+          <circle class="det" cx="2" cy="6" r="14"/><ellipse class="det" cx="2" cy="6" rx="6" ry="14"/><path class="det" d="M-12 6 H16"/>
+          <text class="lbl" y="60">INTERNET</text>
+        </g>
 
-        const observer = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('is-visible');
-                    // Optional: unobserve after it's visible so it doesn't re-animate
-                    // observer.unobserve(entry.target); 
-                }
-            });
-        }, observerOptions);
+        <g class="packets">
+          <g class="packet" opacity="0"><circle class="halo" r="6"/><circle r="3"/>
+            <animateMotion path="M135 72 H222 V162 H800" dur="9s" begin="1.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;.559;1"/>
+            <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.539;.559;1" dur="9s" begin="1.4s" repeatCount="indefinite"/></g>
+          <g class="packet" opacity="0"><circle class="halo" r="6"/><circle r="3"/>
+            <animateMotion path="M135 235 H222 V162 H800" dur="9s" begin="3.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;.5467;1"/>
+            <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.5267;.5467;1" dur="9s" begin="3.4s" repeatCount="indefinite"/></g>
+          <g class="packet" opacity="0"><circle class="halo" r="6"/><circle r="3"/>
+            <animateMotion path="M340 243 V162 H800" dur="9s" begin="6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;.4011;1"/>
+            <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.3811;.4011;1" dur="9s" begin="6s" repeatCount="indefinite"/></g>
+        </g>
+      </svg>
 
-        sections.forEach(section => {
-            observer.observe(section);
-        });
+      <!-- ===== Diagram mobile / tablet ===== -->
+      <svg class="net-svg net-m" viewBox="0 0 360 456" role="group" aria-label="Ilustrasi topologi jaringan: workstation, laptop, dan server terhubung ke network switch, lalu ke router dan internet.">
+        <g class="wires">
+          <path class="wire" pathLength="1" style="--d:.35s" data-rel="workstation switch" d="M60 118 V152 H180 V186"/>
+          <path class="wire" pathLength="1" style="--d:.4s" data-rel="laptop switch" d="M180 118 V186"/>
+          <path class="wire" pathLength="1" style="--d:.45s" data-rel="server switch" d="M300 118 V152 H180 V186"/>
+          <path class="wire" pathLength="1" style="--d:.65s" data-rel="switch router" d="M180 214 V276"/>
+          <path class="wire" pathLength="1" style="--d:.85s" data-rel="router internet" d="M180 304 V344"/>
+        </g>
+        <g class="flows">
+          <path class="flow" data-rel="workstation switch" d="M60 118 V152 H180 V186"/>
+          <path class="flow" data-rel="laptop switch" d="M180 118 V186"/>
+          <path class="flow" data-rel="server switch" d="M300 118 V152 H180 V186"/>
+          <path class="flow" data-rel="switch router" d="M180 214 V276"/>
+          <path class="flow" data-rel="router internet" d="M180 304 V344"/>
+        </g>
 
-        // === ACTIVE NAV LINK HIGHLIGHTING ON SCROLL ===
-        // Fungsi untuk menyorot link navigasi yang aktif berdasarkan posisi scroll
-        const navLinks = document.querySelectorAll('.nav-link');
-        const contentSections = document.querySelectorAll('main section');
+        <g class="dev" data-dev="workstation" tabindex="0" role="img" aria-label="Workstation: komputer desktop dengan monitor" transform="translate(60,52)" style="--d:.15s">
+          <rect class="hit" x="-50" y="-40" width="100" height="104"/>
+          <rect class="body" x="-32" y="-28" width="64" height="42" rx="3"/>
+          <rect class="scr" x="-27" y="-23" width="54" height="32" rx="1.5"/>
+          <path class="det" d="M-12 -8 L10 -14 M-12 -8 L10 2"/>
+          <circle class="node" cx="-12" cy="-8" r="2.6"/><circle class="node" cx="10" cy="-14" r="2.2"/><circle class="node" cx="10" cy="2" r="2.2"/>
+          <circle class="led" cx="24" cy="11.5" r="1.2"/>
+          <path class="det" d="M0 14 V24 M-12 24 H12"/>
+          <rect class="part" x="-22" y="30" width="44" height="6" rx="1.5"/>
+          <text class="lbl" y="56">WORKSTATION</text>
+        </g>
 
-        window.addEventListener('scroll', () => {
-            let currentSectionId = '';
-            
-            contentSections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                // Memberi sedikit offset agar highlight lebih akurat
-                if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
-                    currentSectionId = section.getAttribute('id');
-                }
-            });
+        <g class="dev" data-dev="laptop" tabindex="0" role="img" aria-label="Laptop: perangkat klien" transform="translate(180,61)" style="--d:.2s">
+          <rect class="hit" x="-50" y="-49" width="100" height="104"/>
+          <rect class="body" x="-28" y="-22" width="56" height="36" rx="2.5"/>
+          <rect class="scr" x="-24" y="-18" width="48" height="28" rx="1"/>
+          <path class="det" d="M-14 5 L-7 -6 L0 0 L8 -10 L14 -4"/>
+          <path class="part" d="M-38 14 H38 L33 24 H-33 Z"/>
+          <text class="lbl" y="47">LAPTOP</text>
+        </g>
 
-            navLinks.forEach(link => {
-                link.classList.remove('nav-link-active');
-                if (link.getAttribute('href') === `#${currentSectionId}`) {
-                    link.classList.add('nav-link-active');
-                }
-            });
-        });
+        <g class="dev" data-dev="server" tabindex="0" role="img" aria-label="Server: rak server yang terhubung ke switch" transform="translate(300,56)" style="--d:.25s">
+          <rect class="hit" x="-50" y="-44" width="100" height="104"/>
+          <rect class="body" x="-40" y="-34" width="80" height="68" rx="3"/>
+          <rect class="part" x="-34" y="-28" width="68" height="16" rx="1.5"/><rect class="part" x="-34" y="-8" width="68" height="16" rx="1.5"/><rect class="part" x="-34" y="12" width="68" height="16" rx="1.5"/>
+          <path class="det" d="M-14 -20 H28 M-14 0 H28 M-14 20 H28"/>
+          <circle class="led blink" cx="-26" cy="-20" r="1.6" style="--l:.2s"/><circle class="led blink" cx="-26" cy="0" r="1.6" style="--l:1.2s"/><circle class="led blink" cx="-26" cy="20" r="1.6" style="--l:2.2s"/>
+          <text class="lbl" y="52">SERVER</text>
+        </g>
 
-        // === ROLE TEXT TYPING EFFECT (OPTIONAL) ===
-        // Efek mengetik untuk teks peran di bagian Beranda
-        const roles = ["Teknik Jaringan Komputer and Telekomunikasi", "IT Enthusiast", "IT Support"];
-        let roleIndex = 0;
-        let charIndex = 0;
-        const roleTextElement = document.getElementById('role-text');
+        <g class="dev" data-dev="switch" tabindex="0" role="img" aria-label="Network switch: menghubungkan perangkat di jaringan lokal" transform="translate(180,200)" style="--d:.4s">
+          <rect class="hit" x="-60" y="-18" width="190" height="36"/>
+          <rect class="body" x="-55" y="-14" width="110" height="28" rx="3"/>
+          <rect class="glow" x="-55" y="-14" width="110" height="28" rx="3" opacity="0"><animate attributeName="opacity" values="0;0;.3;0;0;.3;0;0;.3;0;0" keyTimes="0;.1756;.2089;.2644;.3311;.3644;.42;.6867;.72;.7756;1" dur="9s" begin="1.4s" repeatCount="indefinite"/></rect>
+          <path class="det" d="M-47 2h8v7h-8z M-35 2h8v7h-8z M-23 2h8v7h-8z M-11 2h8v7h-8z M1 2h8v7h-8z M13 2h8v7h-8z M25 2h8v7h-8z M37 2h8v7h-8z"/>
+          <circle class="led blink" cx="-43" cy="-6" r="1.5" style="--l:0s"/><circle class="led blink" cx="-31" cy="-6" r="1.5" style="--l:.5s"/><circle class="led blink" cx="-19" cy="-6" r="1.5" style="--l:1.1s"/><circle class="led blink" cx="-7" cy="-6" r="1.5" style="--l:1.7s"/>
+          <circle class="led blink" cx="5" cy="-6" r="1.5" style="--l:.3s"/><circle class="led blink" cx="17" cy="-6" r="1.5" style="--l:.9s"/><circle class="led blink" cx="29" cy="-6" r="1.5" style="--l:1.4s"/><circle class="led blink" cx="41" cy="-6" r="1.5" style="--l:2s"/>
+          <text class="lbl lbl-s" x="64" y="4">SWITCH</text>
+        </g>
 
-        function type() {
-            if (charIndex < roles[roleIndex].length) {
-                roleTextElement.textContent += roles[roleIndex].charAt(charIndex);
-                charIndex++;
-                setTimeout(type, 100); // Kecepatan mengetik
-            } else {
-                setTimeout(erase, 2000); // Tunggu sebelum menghapus
-            }
-        }
+        <g class="dev" data-dev="router" tabindex="0" role="img" aria-label="Router: menghubungkan jaringan lokal ke internet, dengan sinyal Wi-Fi" transform="translate(180,290)" style="--d:.5s">
+          <rect class="hit" x="-130" y="-30" width="226" height="60"/>
+          <rect class="body" x="-50" y="-14" width="100" height="28" rx="3"/>
+          <rect class="glow" x="-50" y="-14" width="100" height="28" rx="3" opacity="0"><animate attributeName="opacity" values="0;0;.3;0;0;.3;0;0;.3;0;0" keyTimes="0;.2756;.3089;.3644;.4311;.4644;.52;.7867;.8356;.8911;1" dur="9s" begin="1.4s" repeatCount="indefinite"/></rect>
+          <circle class="led blink" cx="-38" cy="0" r="1.6" style="--l:0s"/><circle class="led blink" cx="-28" cy="0" r="1.6" style="--l:.8s"/><circle class="led blink" cx="-18" cy="0" r="1.6" style="--l:1.6s"/><circle class="led" cx="-8" cy="0" r="1.6"/>
+          <path class="det" d="M14 -5h8v10h-8z M26 -5h8v10h-8z M38 -5h8v10h-8z"/>
+          <g class="wifi" transform="translate(60,0) rotate(90)"><circle cx="0" cy="0" r="2"/><path d="M-7.1 -7.1 A10 10 0 0 1 7.1 -7.1"/><path d="M-12.7 -12.7 A18 18 0 0 1 12.7 -12.7"/><path d="M-18.4 -18.4 A26 26 0 0 1 18.4 -18.4"/></g>
+          <text class="lbl lbl-e" x="-60" y="4">ROUTER</text>
+        </g>
 
-        function erase() {
-            if (charIndex > 0) {
-                roleTextElement.textContent = roles[roleIndex].substring(0, charIndex - 1);
-                charIndex--;
-                setTimeout(erase, 50); // Kecepatan menghapus
-            } else {
-                roleIndex = (roleIndex + 1) % roles.length;
-                setTimeout(type, 500); // Tunggu sebelum mengetik peran baru
-            }
-        }
-        
-        // Mulai efek mengetik setelah halaman dimuat
-        document.addEventListener('DOMContentLoaded', function() {
-            if(roleTextElement) {
-                roleTextElement.textContent = ''; // Kosongkan dulu
-                setTimeout(type, 1000); // Mulai setelah 1 detik
-            }
-        });
-    </script>
+        <g class="dev" data-dev="internet" tabindex="0" role="img" aria-label="Internet gateway: jalur keluar menuju internet dan cloud" transform="translate(180,385)" style="--d:.65s">
+          <rect class="hit" x="-85" y="-55" width="170" height="120"/>
+          <path class="body" d="M-53 36 H52 C77 36 84 0 62 -8 C66 -36 28 -48 12 -28 C-2 -52 -42 -48 -44 -18 C-72 -20 -80 36 -53 36 Z"/>
+          <path class="glow" d="M-53 36 H52 C77 36 84 0 62 -8 C66 -36 28 -48 12 -28 C-2 -52 -42 -48 -44 -18 C-72 -20 -80 36 -53 36 Z" opacity="0"><animate attributeName="opacity" values="0;0;.3;0;0;.3;0;0;.3;0;0" keyTimes="0;.3511;.3844;.44;.5067;.54;.5956;.8622;.8956;.9511;1" dur="9s" begin="1.4s" repeatCount="indefinite"/></path>
+          <circle class="det" cx="2" cy="6" r="14"/><ellipse class="det" cx="2" cy="6" rx="6" ry="14"/><path class="det" d="M-12 6 H16"/>
+          <text class="lbl" y="60">INTERNET</text>
+        </g>
+
+        <g class="packets">
+          <g class="packet" opacity="0"><circle class="halo" r="6"/><circle r="3"/>
+            <animateMotion path="M60 118 V152 H180 V344" dur="9s" begin="1.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;.3844;1"/>
+            <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.3644;.3844;1" dur="9s" begin="1.4s" repeatCount="indefinite"/></g>
+          <g class="packet" opacity="0"><circle class="halo" r="6"/><circle r="3"/>
+            <animateMotion path="M180 118 V344" dur="9s" begin="4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;.2511;1"/>
+            <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.2311;.2511;1" dur="9s" begin="4s" repeatCount="indefinite"/></g>
+          <g class="packet" opacity="0"><circle class="halo" r="6"/><circle r="3"/>
+            <animateMotion path="M300 118 V152 H180 V344" dur="9s" begin="6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;.3844;1"/>
+            <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.3644;.3844;1" dur="9s" begin="6s" repeatCount="indefinite"/></g>
+        </g>
+      </svg>
+
+      <figcaption class="net-cap" id="netCap">Alur data dari perangkat lokal ke internet. Arahkan kursor, atau ketuk sebuah perangkat, untuk melihat perannya.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="tentang">
+  <div class="wrap split">
+    <div class="sec-title reveal">
+      <p class="idx" aria-hidden="true"><span>01</span> Profil</p>
+      <h2>Tentang saya</h2>
+    </div>
+    <div class="prose reveal">
+      <p class="lead">Lulusan SMK Wikrama Bogor jurusan Teknik Komputer dan Jaringan (TKJ), dengan ketertarikan besar pada networking dan keamanan jaringan.</p>
+      <p>Saya memiliki pengalaman magang di perusahaan IT lokal, terbiasa menangani troubleshooting, instalasi jaringan, dan konfigurasi server. Saya antusias untuk terus belajar dan berkembang di dunia IT, serta siap memberikan kontribusi terbaik melalui keahlian yang saya miliki.</p>
+      <p>Di luar itu, saya suka membaca buku tentang teknologi, mencoba berbagai tools jaringan komputer, dan menikmati secangkir kopi di pagi hari. Saya juga senang menambah ilmu lewat pelatihan dan sertifikat online.</p>
+      <dl class="facts">
+        <div><dt>Pendidikan</dt><dd>SMK Wikrama Bogor, Teknik Komputer dan Jaringan (TKJ)</dd></div>
+        <div><dt>Fokus</dt><dd>Networking &amp; Cyber Security</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="keahlian">
+  <div class="wrap split">
+    <div class="sec-title reveal">
+      <p class="idx" aria-hidden="true"><span>02</span> Kompetensi</p>
+      <h2>Keahlian</h2>
+    </div>
+    <div class="skills">
+      <div class="skill-row reveal"><h3><span class="n" aria-hidden="true">A</span>Sistem &amp; virtualisasi</h3><ul><li>Linux</li><li>Virtual Machine</li><li>Infrastruktur IT</li></ul></div>
+      <div class="skill-row reveal"><h3><span class="n" aria-hidden="true">B</span>Jaringan &amp; wireless</h3><ul><li>MikroTik</li><li>Wireless Networking</li></ul></div>
+      <div class="skill-row reveal"><h3><span class="n" aria-hidden="true">C</span>Cloud &amp; keamanan</h3><ul><li>Cloud Computing</li><li>Cyber Security</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="sertifikat">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <p class="idx" aria-hidden="true"><span>03</span> Dokumen</p>
+        <h2>Sertifikat &amp; pelatihan</h2>
+      </div>
+      <p>Pilih sertifikat untuk memperbesar tampilan. Dokumen PDF asli tersedia di dalamnya.</p>
+    </div>
+    <ul class="gallery">
+      <li class="g1 reveal"><button class="cert" data-pdf="PDF/MTCNA.pdf" data-caption="MTCNA"><img src="Image/MTCNA_page-0001.jpg" alt="Sertifikat MTCNA" loading="lazy"><span class="cap">MTCNA</span></button></li>
+      <li class="g2 reveal"><button class="cert" data-pdf="PDF/Junior%20Cybersecurity.pdf" data-caption="Junior Cybersecurity"><img src="Image/Junior%20Cybersecurity_page-0001.jpg" alt="Sertifikat Junior Cybersecurity" loading="lazy"><span class="cap">Junior Cybersecurity</span></button></li>
+      <li class="g3 reveal"><button class="cert" data-pdf="PDF/Linux%20Fundamental.pdf" data-caption="Linux Fundamental"><img src="Image/Linux%20Fundamental_page-0001.jpg" alt="Sertifikat Linux Fundamental" loading="lazy"><span class="cap">Linux Fundamental</span></button></li>
+      <li class="g4 reveal"><button class="cert" data-pdf="PDF/NetworkTechnicianCareer.pdf" data-caption="Network Technician Career"><img src="Image/NetworkTechnicianCareer_page-0001.jpg" alt="Sertifikat Network Technician Career" loading="lazy"><span class="cap">Network Technician Career</span></button></li>
+      <li class="g5 reveal"><button class="cert" data-pdf="PDF/Sertifikat%20E-Learning%20K3%20Muhammad%20Rizky%20Fadillah.pdf" data-caption="E-Learning K3"><img src="Image/Sertifikat%20E-Learning%20K3%20Muhammad%20Rizky%20Fadillah_page-0001.jpg" alt="Sertifikat E-Learning K3 atas nama Muhammad Rizky Fadillah" loading="lazy"><span class="cap">E-Learning K3</span></button></li>
+      <li class="g6 reveal"><button class="cert" data-pdf="PDF/Virtual%20Machine.pdf" data-caption="Virtual Machine"><img src="Image/Virtual%20Machine_page-0001.jpg" alt="Sertifikat Virtual Machine" loading="lazy"><span class="cap">Virtual Machine</span></button></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section contact" id="kontak">
+  <div class="wrap split">
+    <div class="reveal">
+      <p class="idx" aria-hidden="true"><span>04</span> Kontak</p>
+      <h2>Mari berbincang.</h2>
+      <p class="muted">Saya terbuka untuk peluang baru. Kirim pesan lewat formulir, atau hubungi saya di salah satu kanal berikut.</p>
+      <ul class="links-list reveal-group">
+        <li class="reveal"><a href="https://github.com/rizkyfrz" target="_blank" rel="noopener">GitHub</a></li>
+        <li class="reveal"><a href="https://www.linkedin.com/in/rizkyfadillah-/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li class="reveal"><a href="https://wa.me/6281213131294" target="_blank" rel="noopener">WhatsApp</a></li>
+      </ul>
+    </div>
+    <form class="form reveal" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="bf78c528-8cf5-4125-993f-52bb9dce8d02">
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="field"><label for="name">Nama</label><input type="text" id="name" name="name" autocomplete="name" placeholder="Nama lengkap Anda" required></div>
+      <div class="field"><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email" placeholder="alamat@email.com" required></div>
+      <div class="field"><label for="message">Pesan</label><textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini" required></textarea></div>
+      <button class="btn btn-solid" type="submit" id="submitBtn">Kirim pesan <span class="arrow" aria-hidden="true">→</span></button>
+      <p class="status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year">2025</span> Muhammad Rizky Fadillah</p>
+    <ul>
+      <li><a href="https://github.com/rizkyfrz" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/rizkyfadillah-/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://wa.me/6281213131294" target="_blank" rel="noopener">WhatsApp</a></li>
+    </ul>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-label="Pratinjau sertifikat">
+  <div class="lb-bar">
+    <p id="lbCaption"></p>
+    <a id="lbPdf" class="btn btn-line" href="#" target="_blank" rel="noopener">Buka PDF</a>
+    <button class="lb-close" id="lbClose" aria-label="Tutup pratinjau">Tutup</button>
+  </div>
+  <img id="lbImg" src="" alt="">
+</dialog>
 </body>
 </html>
