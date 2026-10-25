@@ -1,10 +1,12 @@
 # Muhammad Rizky Fadillah — Personal Portfolio
 
-Website portofolio pribadi untuk memperkenalkan profil, pendidikan, minat, dan kompetensi di bidang **Teknik Komputer dan Jaringan (TKJ)**, networking, infrastruktur IT, Linux, cloud computing, dan cyber security.
+Website portofolio pribadi untuk memperkenalkan profil, pendidikan, pengalaman kerja, CV, sertifikat, serta kompetensi di bidang **Teknik Jaringan Komputer dan Telekomunikasi (TJKT)**, networking, infrastruktur IT, Linux, cloud computing, dan cyber security.
 
 - **Live website:** https://rizkyfrz.github.io/
 - **Dibuat dengan:** HTML, CSS, dan JavaScript vanilla
 - **Gaya desain:** Dark Technical Editorial dengan aksen cyan
+- **Tema:** Mode gelap dan terang
+- **Bahasa:** Indonesia dan English
 
 ## Tentang Proyek
 
@@ -16,14 +18,21 @@ Website menggunakan file statis dan tidak memerlukan proses build.
 
 - **Preloader singkat bertema TKJ** dengan ilustrasi komputer, perangkat jaringan, dan identitas Rizky Fadillah. Intro dirancang tampil sekali per sesi dan dapat dilewati melalui interaksi pengguna.
 - **Hero reveal animation** untuk tipografi, foto profil, dan elemen visual.
+- **Mode gelap dan terang** dengan pilihan tema yang disimpan di browser.
+- **Pengalih bahasa Indonesia/English** untuk konten antarmuka dan informasi utama; pilihan bahasa disimpan di browser.
 - **Diagram topologi jaringan interaktif** dengan workstation, laptop, network switch, server, router, Wi-Fi, dan internet gateway.
 - **Animasi aliran data** menggunakan SVG, indikator perangkat, serta highlight jalur ketika perangkat dipilih.
 - **Diagram responsif terpisah** untuk desktop dan layar yang lebih kecil.
 - **Scroll reveal** untuk konten halaman dan indikator progres scroll.
-- **Navigasi responsif** dengan menu mobile serta penanda section aktif.
+- **Navigasi responsif** dengan menu mobile, tautan ke bagian CV, serta penanda section aktif.
+- **Bagian pengalaman kerja** dengan timeline untuk pengalaman magang IT Support dan pengalaman tambahan sebagai Content Creator.
+- **Bagian Curriculum Vitae (CV)** yang menyediakan informasi singkat CV satu halaman, tombol untuk melihat PDF di tab baru, dan tombol untuk mengunduh PDF.
+- **Tombol Download CV di bagian hero** agar CV dapat diakses langsung dari bagian atas halaman.
 - **Galeri enam sertifikat** dengan komposisi asimetris, interaksi hover, lightbox, dan tautan ke PDF asli.
 - **Formulir kontak Web3Forms** dengan status pengiriman berhasil atau gagal berdasarkan respons layanan.
-- **Aksesibilitas dasar**, termasuk focus indicator, dukungan keyboard, dan penanganan `prefers-reduced-motion`.
+- **Animasi foto profil** dengan interaksi ringan.
+- **Aksesibilitas dasar**, termasuk skip link, focus indicator, dukungan keyboard, atribut ARIA, dan penanganan `prefers-reduced-motion`.
+- **Performa animasi yang lebih terjaga**: animasi diagram jaringan dijeda ketika diagram tidak terlihat, tab browser tidak aktif, atau pengguna memilih pengurangan gerakan.
 
 ## Teknologi
 
@@ -94,8 +103,12 @@ Animasi diagram jaringan menggunakan SVG. Untuk menghemat sumber daya, animasi d
 ## Kustomisasi
 
 - **Foto profil:** ganti `Image/foto 2.jpg` dengan foto yang ingin ditampilkan, atau sesuaikan path `src` di `index.html`.
+- **CV:** letakkan file `CV_Muhammad_Rizky_Fadillah.pdf` di folder `PDF/`. Jika nama atau lokasi file berubah, perbarui semua referensi CV di `index.html`.
 - **Sertifikat:** ganti gambar di `Image/` dan PDF di `PDF/`, kemudian perbarui path jika nama file berubah.
 - **Warna dan tipografi:** ubah CSS custom properties di bagian awal `style.css`.
+- **Tema:** pengaturan warna untuk mode gelap dan terang berada di `style.css`; logika pemilihan tema dan penyimpanannya berada di `script.js`.
+- **Bahasa:** teks terjemahan antarmuka berada pada objek `STR` di `script.js`; elemen HTML yang perlu diterjemahkan menggunakan atribut `data-i18n` atau `data-i18n-attr`.
+- **Pengalaman kerja dan CV:** perbarui konten pada section `#pengalaman` dan `#cv` di `index.html`.
 - **Konten profil dan tautan:** edit bagian yang sesuai di `index.html`.
 - **Durasi preloader:** sesuaikan nilai `OUT` pada bagian preloader di `script.js` dengan tetap menjaga transisi singkat dan tidak menghalangi akses ke konten.
 - **Kontak:** periksa tautan GitHub, LinkedIn, WhatsApp, serta konfigurasi Web3Forms sebelum publikasi.
