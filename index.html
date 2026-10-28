@@ -19,6 +19,13 @@
 <link rel="stylesheet" href="style.css">
 <script>var d=document.documentElement;d.classList.add('js');try{var th=localStorage.getItem('rf-theme');if(th==='light'||th==='dark'){d.dataset.theme=th;if(th==='light')document.querySelector('meta[name=theme-color]').setAttribute('content','#F4F3EE')}var lg=localStorage.getItem('rf-lang');if(lg==='en'||lg==='id')d.lang=lg}catch(e){}try{var nv=performance.getEntriesByType('navigation')[0];if(!sessionStorage.getItem('rfIntro')&&!location.hash&&!(nv&&nv.type==='back_forward'))d.classList.add('pre')}catch(e){}setTimeout(function(){if(!d.dataset.ok)d.classList.add('fallback')},2500)</script>
 <script src="script.js" defer></script>
+  <!-- Vercel Web Analytics -->
+<script>
+  window.va = window.va || function () {
+    (window.vaq = window.vaq || []).push(arguments);
+  };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <div class="preloader" id="preloader" aria-hidden="true">
